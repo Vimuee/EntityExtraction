@@ -1,0 +1,21 @@
+{
+	"mode": "train_eval",
+	"load_path": "/iesl/canvas/hren/gpt2_wiki_lab/models/gpt2_pretrained/small/",
+	"save_path": "/iesl/canvas/hren/gpt2_wiki_lab/models/gpt2_trained/re/test/",
+	"sent_path": "/iesl/canvas/hren/gpt2_wiki_lab/data/wiki2016_sents_mapped",
+	"idx_path1": "/iesl/canvas/hschang/language_modeling/NSD_for_sentence_embedding/data/raw/wiki2016_nchunk_entity_agg/wiki2016_idx",
+	"idx_path": "/iesl/canvas/hren/gpt2_wiki_lab/data/wiki2016_idx",
+	"ent_path1": "",
+	"idx_index_path1": "",
+	"save_model": true,
+	"epochs": 2,
+	"epoch_iter": 100,
+	"batch_size": 32,
+	"learning_rate": 1e-3,
+	"weight_decay": 1e-4,
+	"max_len": 250,
+	"from_checkpoint": false,
+	"continue_train": false,
+	"eval_len": 0,
+	"model_select": "GPT2LMREModel"
+}
